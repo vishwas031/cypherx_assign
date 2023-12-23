@@ -2,9 +2,6 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import Link from 'next/link'
 
-// const API_URL =
-//   'https://tfyincvdrafxe7ut2ziwuhe5cm0xvsdu.lambda-url.ap-south-1.on.aws/ticketAndUsers'
-
 const API_URL = process.env.NEXT_PUBLIC_API_URL
 
 const Ticket = ({ ticket}) => {
